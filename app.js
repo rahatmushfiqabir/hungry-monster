@@ -76,9 +76,8 @@ function displayMealDetails(meal) {
 
     //  Ingredients.
     for (let i = 1; i <= 50; i++) {
-        let ingredient = 'strIngredient' + i;
         let measure = 'strMeasure' + i;
-
+        let ingredient = 'strIngredient' + i;
         if (meal[ingredient] === "" || meal[ingredient] == null) {
             break;
         }
