@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 241, 16);
+}
+
+#mealName{
+    background-color: #eec572
+}
+#searchBtn{
+    color: white;
+    background-color: orangered;
+}
+.mealImage{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+}
+.mealPlate{
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow:1px 2px 5px gray;
+}
+.mealSingleImage{
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+}
+.mealSingleTitle{
+    margin-top: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+li{
+    font-size: 20px;
+    color: orangered;
+}
+ul{
+    list-style-type:none;
+}
+
+#error{
+    height: 40px;
+    margin-bottom: 10px;
+}
